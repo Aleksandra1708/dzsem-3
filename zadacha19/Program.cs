@@ -1,4 +1,4 @@
-﻿Console.WriteLine ("Введите 5-ти значное число: ");
+﻿Console.WriteLine ("Введи пятизначное число: ");
 string number = Console.ReadLine();
 int len = number.Length;
 
@@ -6,7 +6,7 @@ if (len == 5)
 {
     if (number[0] == number[4] && number [1] == number[3])
     {
-        Console.WriteLine(number + " Палиндром");
+        Console.WriteLine(number + " Это - палиндром");
     }
 
     else
@@ -16,5 +16,5 @@ if (len == 5)
 }
 else
 {
-    Console.WriteLine ("Вы ввели НЕ 5-и значное число");
+    Console.WriteLine ("Это - НЕ пятизначное число");
 }
